@@ -1,6 +1,6 @@
 {
   "name": "@emqx/emq-header",
-  "version": "1.0.12",
+  "version": "1.0.0",
   "private": false,
   "description": "EMQ Header",
   "main": "dist/EMQHeader.js",
