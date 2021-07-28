@@ -1,13 +1,13 @@
-# emq-header
+# community-websites-header
 
-🌌 EMQ Header.
+🌌 EMQ Community Websites Header.
 
 ## Usage
 
 ### Install package
 
 ```shell
-yarn add @emqx/emq-header
+yarn add @emqx/community-websites-header
 ```
 
 `EMQHeader.ts`

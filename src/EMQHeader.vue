@@ -2,7 +2,7 @@
   <section id="brand-header">
     <div class="navbar-brand container">
       <a class="navbar-item logo" target="_blank" :href="`${baseUrl}`">
-        <img loading="lazy" :alt="$t('brandHeader.emqLogoAlt')" src="./assets/images/brand-header/emq-logo.png" />
+        <img loading="lazy" :alt="translations.emqLogoAlt" src="./assets/images/brand-header/emq-logo.png" />
       </a>
       <template v-for="(navs, index) in navsData">
         <a v-if="!navs.children" :key="index" class="navbar-item" target="_blank" :href="navs.link">

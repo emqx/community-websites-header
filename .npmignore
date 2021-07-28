@@ -3,3 +3,6 @@
 node_modules/
 webpack.config.js
 src/
+
+# Output of 'npm pack'
+*.tgz
