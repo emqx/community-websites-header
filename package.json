@@ -1,8 +1,8 @@
 {
-  "name": "@emqx/emq-header",
+  "name": "@emqx/community-websites-header",
   "version": "1.0.0",
   "private": false,
-  "description": "EMQ Header",
+  "description": "EMQ Community Websites Header",
   "main": "dist/EMQHeader.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -20,7 +20,7 @@
   "homepage": "https://emqx.com/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emqx/emqx-header"
+    "url": "git+https://github.com/emqx/community-websites-header"
   },
   "dependencies": {
     "bulma": "^0.9.3"
@@ -42,7 +42,6 @@
     "vue-style-loader": "^3.0.3",
     "vue-template-compiler": "^2.5.9",
     "webpack": "^4.19.0",
-    "webpack-cli": "^3.1.0",
-    "bulma": "^0.9.3"
+    "webpack-cli": "^3.1.0"
   }
 }

@@ -26,3 +26,11 @@ Vue.use(EMQHeader)
     plugins: [{ src: '~/plugins/EMQHeader', ssr: false },],
 }
 ```
+
+`default.vue`
+
+```ts
+<client-only>
+    <EMQHeader :lang="$i18n.locale" />
+</client-only>
+```
