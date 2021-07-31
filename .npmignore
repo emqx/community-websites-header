@@ -1,8 +1,10 @@
-.*
-*.md
-node_modules/
-webpack.config.js
-src/
+examples/
+packages/
+public/
 
-# Output of 'npm pack'
-*.tgz
+vue.config.js
+babel.config.js
+tsconfig.json
+*.map
+*.zip
+.*

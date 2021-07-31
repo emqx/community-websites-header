@@ -1,4 +1,4 @@
-import EMQHeader from './EMQHeader.vue'
+import EMQHeader from './src/EMQHeader.vue'
 
 EMQHeader.install = (Vue) => Vue.component(EMQHeader.name, EMQHeader)
 

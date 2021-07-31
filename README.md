@@ -10,11 +10,13 @@
 yarn add @emqx/community-websites-header
 ```
 
+### Nuxt
+
 `EMQHeader.ts`
 
 ```ts
 import Vue from 'vue'
-import EMQHeader from 'emqx-header'
+import { EMQHeader } from '@emqx/community-websites-header'
 
 Vue.use(EMQHeader)
 ```
@@ -33,4 +35,33 @@ Vue.use(EMQHeader)
 <client-only>
     <EMQHeader :lang="$i18n.locale" />
 </client-only>
+```
+
+### Vuepress
+
+`enhanceApp.js`
+
+```js
+export default ({
+  Vue, // the version of Vue being used in the VuePress app
+  options, // the options for the root Vue instance
+  router, // the router instance for the app
+  siteData, // site metadata
+}) => {
+
+    ...
+
+  Vue.mixin({
+    mounted() {
+      const EMQHeader = require('@emqx/community-websites-header')
+      Vue.use(EMQHeader)
+    },
+  })
+}
+```
+
+`Layout.vue`
+
+```html
+<EMQHeader :lang="$lang === 'en' ? 'en' : 'zh'" />
 ```
