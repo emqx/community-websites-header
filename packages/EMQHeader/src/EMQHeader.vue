@@ -46,12 +46,7 @@
                       </div>
                     </div>
                     <div class="column">
-                      <img
-                        loading="lazy"
-                        :alt="navs.cloudPromo.buttonText"
-                        class="pr-5"
-                        src="./assets/images/brand-header/brand-cloud.svg"
-                      />
+                      <CloudSVG class="mr-5" />
                     </div>
                   </div>
                 </a>
@@ -66,11 +61,15 @@
 
 <script>
 import useLinks from './utils/useLinks'
+import CloudSVG from '././assets/images/brand-header/brand-cloud.svg'
 import translationsEN from './lang/en-US'
 import translationsZH from './lang/zh-CN'
 
 export default {
   name: 'EMQHeader',
+  components: {
+    CloudSVG,
+  },
   props: {
     lang: {
       type: String,
@@ -83,19 +82,19 @@ export default {
     return {}
   },
   computed: {
-    langSuffix: function() {
+    langSuffix: function () {
       const langSuffix = this.lang === 'zh' ? 'zh' : ''
       return langSuffix
     },
-    baseUrl: function() {
+    baseUrl: function () {
       const { baseUrl } = useLinks(this.lang)
       return baseUrl
     },
-    translations: function() {
+    translations: function () {
       const translations = this.lang === 'zh' ? translationsZH : translationsEN
       return translations
     },
-    navsData: function() {
+    navsData: function () {
       const { EMQCloudUrl } = useLinks(this.lang)
       return [
         {
@@ -155,5 +154,5 @@ $navbar-icon-mqttx: './assets/images/brand-header/navbar-icon-mqttx.png';
 $navbar-icon-emqx-bench: './assets/images/brand-header/navbar-icon-emqx-bench.png';
 $navbar-icon-nanomq: './assets/images/brand-header/navbar-icon-nanomq.png';
 $navbar-icon-neuron: './assets/images/brand-header/navbar-icon-neuron.png';
-@import './assets/scss/brand.scss';
+@import './assets/scss/header.scss';
 </style>
