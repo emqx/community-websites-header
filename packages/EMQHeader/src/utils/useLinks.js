@@ -2,8 +2,8 @@ export default (lang) => {
   const emqENSite = 'https://www.emqx.com/en'
   const emqCNSite = 'https://www.emqx.com/zh'
   const baseUrl = lang === 'zh' ? emqCNSite : emqENSite
-  const emqCloudENSite = 'https://cloud.emqx.io'
-  const emqCloudCNSite = 'https://cloud.emqx.cn'
+  const emqCloudENSite = 'https://www.emqx.com/en/cloud'
+  const emqCloudCNSite = 'https://www.emqx.com/zh/cloud'
   const EMQCloudUrl = lang === 'zh' ? emqCloudCNSite : emqCloudENSite
   const emqDocsENSite = 'https://docs.emqx.io/en/'
   const emqDocsCNSite = 'https://docs.emqx.cn/'
