@@ -16,7 +16,7 @@ yarn add @emqx/community-websites-header
 
 ```ts
 import Vue from 'vue'
-import { EMQHeader } from '@emqx/community-websites-header'
+import EMQHeader from '@emqx/community-websites-header'
 
 Vue.use(EMQHeader)
 ```
