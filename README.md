@@ -33,7 +33,7 @@ Vue.use(EMQHeader)
 
 ```ts
 <client-only>
-    <EMQHeader :lang="$i18n.locale" />
+    <EMQHeader :lang="$i18n.locale" product="emqx" />
 </client-only>
 ```
 
@@ -63,5 +63,12 @@ export default ({
 `Layout.vue`
 
 ```html
-<EMQHeader :lang="$lang === 'en' ? 'en' : 'zh'" />
+<EMQHeader :lang="$lang === 'en' ? 'en' : 'zh'" product="emqx" />
 ```
+
+### Attributes
+
+| Attributes | Description       | Type   | Accepted Values                | Default |
+| ---------- | ----------------- | ------ | ------------------------------ | ------- |
+| lang       | Page Language     | string | en / zh                        | en      |
+| product    | Show Github Stars | string | emqx / neuron / nanomq / mqttx | —       |
