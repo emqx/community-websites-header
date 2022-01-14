@@ -102,7 +102,7 @@
           </template>
           <a
             class="navbar-item px-3 has-text-weight-normal"
-            href="https://discord.gg/xYGf3fQnES"
+            href="https://slack-invite.emqx.io/"
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
