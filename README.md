@@ -72,3 +72,13 @@ export default ({
 | ---------- | ----------------- | ------ | ------------------------------ | ------- |
 | lang       | Page Language     | string | en / zh                        | en      |
 | product    | Show Github Stars | string | emqx / neuron / nanomq / mqttx | —       |
+
+## Publish
+
+```bash
+npm login
+
+yarn lib
+
+npm publish
+```
