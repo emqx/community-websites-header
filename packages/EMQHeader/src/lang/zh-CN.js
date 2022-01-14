@@ -1,7 +1,7 @@
 export default {
   products: '旗下产品',
   ecosystem: '生态',
-  emqLogoAlt: 'EMQ - 全球领先的开源物联网基础设施软件供应商',
+  emqLogoAlt: 'EMQ: 面向物联网的现代数据基础设施',
   trial: '免费试用 →',
   tools: '工具',
   testService: '测试服务',

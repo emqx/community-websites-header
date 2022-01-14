@@ -2,7 +2,7 @@ export default {
   trial: 'Try Free →',
   ecosystem: 'Ecosystem',
   products: 'Products',
-  emqLogoAlt: "EMQ - The World's Leading Open Source IoT Software",
+  emqLogoAlt: 'EMQ: Modern Data Infrastructure for IoT',
   tools: 'Tools',
   testService: 'Benchmark',
   functionalProgramming: 'Functional Programming',
