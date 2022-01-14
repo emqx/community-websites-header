@@ -8,6 +8,9 @@
     align-items: center;
     flex-shrink: 0;
     min-height: 4.5rem;
+    &.container {
+      padding: 0 12px;
+    }
   }
   .navbar-link,
   .navbar-item {
@@ -24,6 +27,20 @@
     }
     &.has-dropdown:hover .navbar-link {
       background-color: inherit;
+    }
+    .btn-github {
+      background: #fff;
+      border-radius: 4px;
+      border: 1px solid #e3e5ec;
+      .star {
+        padding: 4px 6px;
+        color: #424242;
+        background: linear-gradient(180deg, #f9f9f9 0%, #e5e8ef 100%);
+        border-right: 1px solid #e3e5ec;
+      }
+      .count {
+        padding: 4px 6px;
+      }
     }
   }
   .navbar-link:not(.is-arrowless)::after {
