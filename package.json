@@ -1,6 +1,6 @@
 {
   "name": "@emqx/community-websites-header",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "description": "EMQ Community Websites Header",
   "main": "lib/emq-public-components.umd.min.js",

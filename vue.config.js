@@ -37,5 +37,13 @@ module.exports = {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
     svgRule.use('vue-svg-loader').loader('vue-svg-loader')
+
+    config.module
+      .rule('images')
+      .use('url-loader')
+      .tap((options) => {
+        options.limit = 163840 // 20kb
+        return options
+      })
   },
 }
