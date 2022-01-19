@@ -7,7 +7,7 @@ export default {
   testService: '测试服务',
   functionalProgramming: '函数编程',
   aboutEMQ: '关于我们',
-  EMQXCloudDescription: '云原生的全托管 MQTT 服务',
+  EMQXCloudDescription: '全托管的云原生 MQTT 消息服务',
   EMQXDescription: '云原生分布式物联网接入平台',
   NanoMQDescription: '超轻量边缘 MQTT 消息服务器',
   NeuronDescription: '物联网边缘工业协议网关软件',
@@ -18,4 +18,7 @@ export default {
   MQTTBenchDescription: 'MQTT 5.0 基准测试工具',
   ZHaskellDescription: '简洁、高性能、现代的 Haskell 工程套件',
   HamlerDescription: '运行在 Erlang 虚拟机上的强类型编程语言',
+  streamingDatabase: '流数据库',
+  edgeComputing: '边缘计算',
+  serviceTools: '服务和工具',
 }

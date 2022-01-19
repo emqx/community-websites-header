@@ -7,8 +7,8 @@ export default {
   testService: 'Benchmark',
   functionalProgramming: 'Functional Programming',
   aboutEMQ: 'About',
-  EMQXCloudDescription: 'Cloud-Native Fully Managed MQTT Service',
-  EMQXDescription: 'Cloud-Native IoT Messaging Platform',
+  EMQXCloudDescription: 'Fully Managed Cloud-native MQTT Messaging Service',
+  EMQXDescription: 'Self-managed Cloud-native IoT Messaging Platform',
   NanoMQDescription: 'Lightweight Messaging Engine for IoT Edge',
   NeuronDescription: 'Industrial IoT Gateway Software for Edge',
   HStreamDBDescription: 'Cloud-Native, Real-time Streaming Database',
@@ -18,4 +18,7 @@ export default {
   MQTTBenchDescription: 'MQTT 5.0 Benchmark Tool',
   ZHaskellDescription: 'Fast/Concise/Modern Haskell Engineering Toolkits',
   HamlerDescription: 'Haskell-style Language Running on Erlang VM',
+  streamingDatabase: 'Streaming Database',
+  edgeComputing: 'Edge Computing',
+  serviceTools: 'Service & Tools',
 }
