@@ -131,7 +131,7 @@
           </template>
           <a
             class="navbar-item px-3 has-text-weight-normal"
-            href="https://slack-invite.emqx.io/"
+            href="https://discord.gg/xYGf3fQnES"
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -139,11 +139,11 @@
               loading="lazy"
               class="mr-1"
               alt="Slack"
-              src="./assets/images/brand-header/icon-slack.png"
+              src="./assets/images/brand-header/icon-discord.png"
               width="20"
               height="20"
             />
-            Slack
+            Discord
           </a>
           <a
             class="navbar-item pl-3 pr-0 has-text-weight-normal"
