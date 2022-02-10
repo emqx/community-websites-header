@@ -207,11 +207,11 @@ export default {
           text: this.translations.products,
           children: [
             {
-              text: 'EMQ X Cloud',
+              text: 'EMQX Cloud',
               link: `${this.baseUrl}/cloud`,
             },
             {
-              text: 'EMQ X Enterprise',
+              text: 'EMQX Enterprise',
               link: `${this.baseUrl}/products/emqx`,
             },
             {
@@ -239,14 +239,14 @@ export default {
             {
               icon: 'icon-cloud',
               poster: 'banner-cloud',
-              text: 'EMQ X Cloud',
+              text: 'EMQX Cloud',
               link: `${this.baseUrl}/cloud`,
               summary: this.translations.EMQXCloudDescription,
             },
             {
               icon: 'icon-emqx',
               poster: 'banner-enterprise',
-              text: 'EMQ X Enterprise',
+              text: 'EMQX Enterprise',
               link: `${this.baseUrl}/products/emqx`,
               summary: this.translations.EMQXDescription,
             },
