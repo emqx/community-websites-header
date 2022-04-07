@@ -21,7 +21,7 @@ export default (lang) => {
   const forumsEN = {
     emqx: 'https://github.com/emqx/emqx/discussions',
     hstreamdb: 'https://github.com/hstreamdb/hstream/discussions',
-    nanomq: 'https://github.com/nanomq/nanomq/discussions',
+    nanomq: 'https://github.com/emqx/nanomq/discussions',
   }
   const forumsCN = {
     emqx: 'https://askemq.com/c/emqx/5',
@@ -34,7 +34,7 @@ export default (lang) => {
   const githubRepos = {
     emqx: 'https://github.com/emqx/emqx',
     hstreamdb: 'https://github.com/hstreamdb/hstream',
-    nanomq: 'https://github.com/nanomq/nanomq',
+    nanomq: 'https://github.com/emqx/nanomq',
   }
 
   const documentationsEN = {

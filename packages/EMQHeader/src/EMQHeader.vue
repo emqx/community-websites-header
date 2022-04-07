@@ -303,8 +303,8 @@ export default {
     githubLink: function () {
       const githubMap = new Map([
         ['emqx', 'https://github.com/emqx/emqx'],
-        ['neuron', 'https://github.com/neugates/neuron'],
-        ['nanomq', 'https://github.com/nanomq/nanomq'],
+        ['neuron', 'https://github.com/emqx/neuron'],
+        ['nanomq', 'https://github.com/emqx/nanomq'],
         ['mqttx', 'https://github.com/emqx/MQTTX'],
       ])
       return githubMap.get(this.product)
@@ -319,8 +319,8 @@ export default {
     getGitHubStar: async function () {
       const reopApiMap = new Map([
         ['emqx', 'https://api.github.com/repos/emqx/emqx'],
-        ['neuron', 'https://api.github.com/repos/neugates/neuron'],
-        ['nanomq', 'https://api.github.com/repos/nanomq/nanomq'],
+        ['neuron', 'https://api.github.com/repos/emqx/neuron'],
+        ['nanomq', 'https://api.github.com/repos/emqx/nanomq'],
         ['mqttx', 'https://api.github.com/repos/emqx/MQTTX'],
       ])
       const reopApi = reopApiMap.get(this.product)
