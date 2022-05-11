@@ -1,0 +1,16 @@
+@import '~bulma/sass/utilities/_all';
+
+// customize styles
+$text-color: #343741;
+$main-color: #5e4eff;
+
+$primary: $main-color;
+$link: $main-color;
+$link-hover: $main-color;
+$text: $text-color;
+
+@import '~bulma/sass/base/_all';
+@import '~bulma/sass/helpers/_all';
+@import '~bulma/sass/elements/container';
+@import '~bulma/sass/grid/columns';
+@import '~bulma/sass/components/navbar';
