@@ -1,4 +1,4 @@
-@import 'bulma';
+@import './bulma';
 
 #brand-header {
   background-color: #fff;
@@ -23,7 +23,7 @@
     font-weight: 500;
     color: #343741;
     &:hover {
-      color: #5e4eff;
+      color: $main-color;
     }
     &.has-dropdown:hover .navbar-link {
       background-color: inherit;
@@ -59,7 +59,7 @@
       }
     }
     &.is-hoverable:hover .navbar-link {
-      color: #5e4eff;
+      color: $main-color;
     }
     &.is-hoverable:hover .navbar-dropdown {
       &.moblie {
@@ -157,10 +157,10 @@
         .product-title {
           color: #1d1d1d;
           &:hover {
-            color: #5e4eff;
+            color: $main-color;
           }
           span {
-            color: #5e4eff;
+            color: $main-color;
           }
         }
         .product-summary {
