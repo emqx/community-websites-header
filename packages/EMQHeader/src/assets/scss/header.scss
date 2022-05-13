@@ -153,6 +153,9 @@
           width: 212px;
           height: 140px;
           flex: 0 0 212px;
+          img {
+            border-radius: 8px;
+          }
         }
         .product-title {
           color: #1d1d1d;
