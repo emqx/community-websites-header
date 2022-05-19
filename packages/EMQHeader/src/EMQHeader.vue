@@ -2,7 +2,13 @@
   <section id="brand-header">
     <div class="navbar-brand container">
       <a class="navbar-item logo" target="_blank" :href="`${baseUrl}`">
-        <img loading="lazy" :alt="translations.emqLogoAlt" src="./assets/images/brand-header/emq-logo.png" />
+        <img
+          loading="lazy"
+          :alt="translations.emqLogoAlt"
+          src="./assets/images/brand-header/emq-logo.png"
+          width="62"
+          height="18"
+        />
       </a>
       <div class="navbar-menu is-flex is-shadowless">
         <div class="navbar-start is-flex">
