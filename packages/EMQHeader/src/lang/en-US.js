@@ -8,7 +8,7 @@ export default {
   functionalProgramming: 'Functional Programming',
   aboutEMQ: 'About',
   EMQXCloudDescription: 'Fully managed MQTT messaging service for IoT',
-  EMQXDescription: 'Self-managed enterprise IoT messaging platform',
+  EMQXDescription: 'Self-managed enterprise MQTT messaging platform',
   NanoMQDescription: 'Lightweight Messaging Engine for IoT Edge',
   NeuronDescription: 'Industrial IoT Gateway Software for Edge',
   HStreamDBDescription: 'Cloud-Native, Real-time Streaming Database',
