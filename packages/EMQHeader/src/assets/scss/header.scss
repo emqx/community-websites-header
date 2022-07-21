@@ -108,7 +108,8 @@
       display: none;
       padding: 0;
       width: 1000px;
-      left: -96px;
+      max-width: calc(100vw - 12px);
+      left: -84px;
       opacity: 0;
       pointer-events: none;
       transform-origin: 50% -16px;
@@ -121,7 +122,7 @@
         content: '';
         position: absolute;
         top: -4px;
-        left: 146px;
+        left: 134px;
         background-color: #fff;
         transform: rotate(45deg);
         transition-property: transform;
